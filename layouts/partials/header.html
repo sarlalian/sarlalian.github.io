@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Params.inc.title }} &mdash; {{ .Site.Params.inc.subtitle }}</title>
+    {{ with .Site.Params.inc.google_font }}<link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">{{ end }}
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/{{ .Site.Params.inc.logo }}"/>
+    <link href="{{ .Site.BaseUrl }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
+    <meta name="title" content="{{ .Site.BaseUrl }}">
+    <link rel="canonical" href="{{ .Site.BaseUrl }}">
+    <meta property="og:title" content="{{ .Site.Params.inc.title }}"/>
+    <meta property="og:url" content="{{ .Site.BaseUrl }}"/>
+    <meta property="og:image" content="{{ .Site.BaseUrl }}/images/{{ .Site.Params.inc.logo }}"/>   
+    <meta property="og:site_name" content="{{ .Site.Params.inc.title }}">
+
+    <script type="text/javascript" src="/vendor/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/vendor/three.js/three.min.js"></script>
+    <script type="text/javascript" src="/vendor/threex.planets/threex.planets.js"></script>
+    <script type="text/javascript" src="/vendor/threex.planets/threex.atmospherematerial.js"></script>
+    <script type="text/javascript" src="/vendor/threex.planets/threex.atmospheredatgui.js"></script>
+    <script type="text/javascript" src="/vendor/dat.gui/dat.gui.js"></script>
+    <script type="text/javascript" src="/js/logo.js"></script>
+</head>
+<body>
+    
+{{ partial "_nav.html" . }}
+
+<div class="blog-cover" style="background-image:url(/images/{{ .Site.Params.inc.cover_image }});">
+    
+    <section>
+        <div class="container">
+            <h1>{{ .Site.Params.inc.title }}</h1>
+            {{ with .Site.Params.inc.subtitle }}<h3>{{ . }}</h3>{{ end }}
+        
+            {{ with .Site.Params.author_twitter }}
+            <a href="https://twitter.com/{{ . }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+            {{ end }}
+            {{ with .Site.Params.author_github }}
+            <a href="https://github.com/{{ . }}" title="Follow on Github" target="_blank"><i class="icon icon-github"></i></a>
+            {{ end }}
+            {{ with .Site.Params.author_facebook }}
+            <a href="http://facebook.com/{{ . }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            {{ end }}
+            <a href="/index.xml" title="RSS Feed">
+                <i class="icon icon-rss"></i>
+            </a>
+        </div>
+    </section>
+</div>
+

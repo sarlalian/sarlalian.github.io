@@ -1,0 +1,15 @@
+{
+  "name": "debug",
+  "homepage": "https://github.com/visionmedia/debug",
+  "version": "0.8.1",
+  "_release": "0.8.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.8.1",
+    "commit": "d2280da3a0ee969eeca56ae10062667c90278af3"
+  },
+  "_source": "git://github.com/visionmedia/debug.git",
+  "_target": "~0.8.1",
+  "_originalSource": "visionmedia/debug",
+  "_direct": true
+}

@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<article class="container">
+
+  <section class="index"> 
+    <h2><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    <div class="meta">
+      Written By <address>{{ .Site.Params.author_name }}</address> &mdash;
+      <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 1, 2006" }}</time>
+    </div>
+  </section>
+  
+</article>
+
+{{ partial "footer.html" . }}

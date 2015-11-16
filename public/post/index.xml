@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on WILLFife.com</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on WILLFife.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Apr 2015 22:10:15 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/blog/2015/04/21/hugo/</link>
+      <pubDate>Tue, 21 Apr 2015 22:10:15 -0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/2015/04/21/hugo/</guid>
+      <description>
+
+&lt;h2 id=&#34;history-of-a-blog:32ab7241d48fcc174c877413a917f8cf&#34;&gt;History of a blog&lt;/h2&gt;
+
+&lt;p&gt;Over the years I’ve maintained various blog’s using various
+engines, including &lt;a href=&#34;https://wordpress.com/&#34;&gt;Wordpress&lt;/a&gt;,
+&lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt; and
+&lt;a href=&#34;https://www.blogger.com/home&#34;&gt;Blogger&lt;/a&gt;, and most recently my move to
+&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.  Hugo, like Jekyll is a simple blog aware
+static website engine.  With the larger, more comprehensive platforms,
+I always felt trapped and constrained within whatever themes were
+available, but with the static site generators it was easier to iterate
+on the design to get the look and effect that I wanted.&lt;/p&gt;
+
+&lt;h2 id=&#34;ruby-vs-go:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Ruby vs. Go&lt;/h2&gt;
+
+&lt;p&gt;I enjoy &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; as a programming language,
+I use it a bit at my &lt;a href=&#34;http://www.laika.com&#34;&gt;DayJob&lt;/a&gt;, and when my blog
+was using Jekyll or Octopress which is based on Jekyll, that was the
+language of choice there as well.  Ruby is a beautiful, expressive
+language that lends its self, much like perl to clever code.  I guess
+that over the years, I have grown less fond of eing clever with my code.
+So this incarnation around, I decided to go with hugo.  It is written in
+&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; which I am growing increasingly fond of.  I
+came across &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; because it was created by &lt;a href=&#34;http://spf13.com/&#34;&gt;Steve
+Francia&lt;/a&gt; who created several packages that I use in my
+go development.  So far I’m liking it quite a lot.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;Hugo seems to have the full gambit of features that one would look for
+in a static site generator.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/themes/overview/&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/content/front-matter/&#34;&gt;Front matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;Sections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Templates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/extras/livereload/&#34;&gt;Live Reload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/extras/highlighting/&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/extras/aliases/&#34;&gt;And more&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, since hugo is written in &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;, it will work
+on most unixes as well as windows, and deployment is as simple as
+downloading a single binary.  Oh and did I mention, its fast.  Damn fast,
+really really damn fast.  So far, I’m liking it quite a lot.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
