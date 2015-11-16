@@ -1,0 +1,44 @@
+---
+baseurl: "http://willfife.com"
+title: "WILLFife.com"
+pygmentsuseclasses: true
+layoutdir: "layouts"
+contentdir: "content"
+publishdir: "public"
+languageCode: "en-us"
+canonifyurls: true
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+metadataformat: "yaml"
+params:
+  author_name: "Will L. Fife"
+  author_link: "http://www.willfife.com"
+  author_bio: "Yup, That guy!"
+  author_github: sarlalian
+  author_twitter: sarlalian
+  inc:
+    # Blog Info
+    title: "WILLFife.com"
+    subtitle: "Computers, Art, Life"
+    cover_image: cover.jpg
+    logo: logo.png
+    # Personal Info
+    url: "http://willfife.com"
+    about_link: /about/
+    posts_link: /post/
+    projects_link: /project/
+    # Sharing settings
+    sharing:
+      twitter:    false
+      facebook:   false
+      gplus:      false
+      hn:         false 
+    # Analytics     
+    analytics:
+      googleid: UA-00000000-0
+    # Google Fonts
+    google_font: 'Droid+Sans:400,700'
+
+
+---
